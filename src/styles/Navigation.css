@@ -34,27 +34,19 @@ a:link {
 }
 
 a:visited {
-    color: rgb(28, 70, 206);
+    color: rgb(27, 131, 48);
 }
 
 a:hover {
-    color: #ffffff;
+    color: #63c770;
 }
 
 a:active {
-    color: rgb(238, 238, 13);
+    color: rgb(174, 21, 205);
 }
 
 .menu__link {
     text-decoration: none;
     /* display: block; */
     padding: 0 18px;
-}
-
-.button--large {
-    font-size: 18px;
-    position: absolute;
-    right: 100px;
-    top: 400px;
-    padding: 10px 30px;
 }
