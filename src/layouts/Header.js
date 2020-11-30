@@ -15,7 +15,7 @@ const Header = () => {
         <p class="banner__title banner__title--idea"> idea</p>
         <p class="banner__title banner__title--development"> development</p>
         <p class="banner__title banner__title--art"> art</p>
-        <button class="button banner__btn button--large">Wejdz</button>
+        <button class="button banner__btn button--large">Enter</button>
       </div>
     </>
   );
