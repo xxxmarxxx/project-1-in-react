@@ -1,0 +1,16 @@
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: rgb(172, 238, 205);
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    /* font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+   
+}
