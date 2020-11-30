@@ -9,6 +9,10 @@
     background-color: rgb(250, 249, 247);
 }
 
+.page__header {
+    background: rgb(219, 225, 230);
+}
+
 .page__nav {
     /* height: 40px; */
     width: 900px;
@@ -147,27 +151,5 @@ a:active {
     color: rgb(230, 230, 0);
 }
 
-.page__header {
-    background: rgb(219, 225, 230);
-}
-
-/* .articles {
-    margin: auto;
-    width: 900px;
-    padding: 80px;
-} */
-
-/* .search {
-    padding-bottom: 40px;
-    text-align: right;
-} */
-
-/* .article__title {
-    padding: 40px 0 20px;
-    font-family: 'Barlow Condensed', sans-serif;
-} */
 
 
-/* .article_subtitle {
-    padding: 10px 0;
-} */
