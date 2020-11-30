@@ -1,0 +1,60 @@
+.menu {
+    background-color: rgb(237, 244, 234);
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: #ffffff; */
+}
+
+.logo__image {
+    height: 30px;
+}
+
+.logo__name {
+    padding: 0 60px 0 10px;
+}
+
+.menu__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu__item {
+    float: left;
+}
+
+a:link {
+    color: rgb(226, 43, 128);
+}
+
+a:visited {
+    color: rgb(28, 70, 206);
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+a:active {
+    color: rgb(238, 238, 13);
+}
+
+.menu__link {
+    text-decoration: none;
+    /* display: block; */
+    padding: 0 18px;
+}
+
+.button--large {
+    font-size: 18px;
+    position: absolute;
+    right: 100px;
+    top: 400px;
+    padding: 10px 30px;
+}
