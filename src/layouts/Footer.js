@@ -2,18 +2,17 @@ import React from "react";
 import "../styles/Footer.css";
 
 const Footer = () => {
-    return ( 
+  return (
+    <>
+      <footer class="footer page__footer">
+        <p class="footer_copyright">copyright</p> &nbsp;&bull;&nbsp;
+        <p class="footer__address-info">
+          {" "}
+          designArt &nbsp; 12164 berlin &nbsp; schlosstrasse 1000
+        </p>
+      </footer>
+    </>
+  );
+};
 
-<>
-<div className="footer">
-<p>jestem footer</p>
-
-</div>
-
-</>
-
-
-     );
-}
- 
 export default Footer;
