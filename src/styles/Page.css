@@ -1,0 +1,29 @@
+.articles {
+    margin: auto;
+    width: 900px;
+    padding: 80px;
+}
+
+.search {
+    padding-bottom: 40px;
+    text-align: right;
+}
+.search__input {
+    height: 25px ;
+}
+
+.article__title {
+    padding: 40px 0 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.article_subtitle {
+    padding: 10px 0;
+}
+
+.button--italic {
+    text-transform: uppercase;
+    margin: 10px 10px;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
