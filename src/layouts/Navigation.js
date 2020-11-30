@@ -7,8 +7,8 @@ const Navigation = () => {
     <>
       <div className="menu page__nav">
         <div className="logo menu__logo">
-          <img src={logo1.svg} alt="" className="logo__image" />
-          <span className="logo__name">designArt</span>
+          <img src={logo1} alt="" className="logo__image" />
+          <span className="logo__name">myArt</span>
 
           <ul className="menu__list">
             <li className="menu__item menu__item--is-open">
