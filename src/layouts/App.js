@@ -1,6 +1,7 @@
 import Header from "./Header";
-import Footer from "./Footer";
 import Navigation from "./Navigation";
+import Page from "./Page";
+import Footer from "./Footer";
 import "../styles/App.css";
 
 function App() {
@@ -8,10 +9,10 @@ function App() {
     <>
       <div className="App">
         <header>{<Header />}</header>
-  <navigation>{<Navigation/>}</navigation>
-
+        <navigation>{<Navigation />}</navigation>
+        <page>{<Page />}</page>
+        <footer>{<Footer />}</footer>
       </div>
-      <footer>{<Footer />}</footer>
     </>
   );
 }
