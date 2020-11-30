@@ -1,0 +1,28 @@
+.articles {
+    margin: auto;
+    width: 900px;
+    padding: 80px;
+}
+
+.article__title {
+    text-align: left;
+    padding: 40px 0 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.article_subtitle {
+    text-align: left;
+    padding: 10px 0;
+}
+
+.article__text {
+    text-align: left;
+}
+
+.article__info {
+    text-align: left;
+}
+
+.article__btn {
+    margin-left: 80%;
+}
