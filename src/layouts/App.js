@@ -8,10 +8,10 @@ function App() {
   return (
     <>
       <div className="App">
-        <header>{<Header />}</header>
-        <navigation>{<Navigation />}</navigation>
-        <page>{<Page />}</page>
-        <footer>{<Footer />}</footer>
+        <Header />
+        <Navigation />
+        <Page />
+        <Footer />
       </div>
     </>
   );
