@@ -12,22 +12,22 @@ const Navigation = () => {
 
           <ul className="menu__list">
             <li className="menu__item menu__item--is-open">
-              <a href="/" className="menu__link">
+              <a href=" " className="menu__link">
                 main
               </a>
             </li>
             <li className="menu__item">
-              <a href="/" className="menu__link">
+              <a href=" " className="menu__link">
                 news
               </a>
             </li>
             <li className="menu__item">
-              <a href="/" class="menu__link">
+              <a href=" " className="menu__link">
                 contact
               </a>
             </li>
             <li className="menu__item">
-              <a href="/" className="menu__link">
+              <a href=" " className="menu__link">
                 impressum
               </a>
             </li>

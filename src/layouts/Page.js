@@ -8,7 +8,7 @@ const Page = () => {
   return (
     <>
       <div className="articles page__articles">
-        <form className="search" action="/">
+        <form className="search" action="">
           <input className="search__input" type="text" />
           <button className="button search__btn button--italic" type="submit">
             find
