@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 536 151" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-166.528,-786.47)">
+        <g transform="matrix(1.19241,0,0,0.776685,-32.0409,209.257)">
+            <path d="M615.423,840.112C615.423,786.611 587.131,743.175 552.282,743.175L229.669,743.175C194.821,743.175 166.528,786.611 166.528,840.112C166.528,893.613 194.821,937.049 229.669,937.049L552.282,937.049C587.131,937.049 615.423,893.613 615.423,840.112Z"/>
+        </g>
+        <g transform="matrix(5.35007,0,0,2.07717,-1070.51,-885.795)">
+            <text x="247.368px" y="859.115px" style="font-family:'DINCondensed-Bold', 'DIN Condensed';font-weight:700;font-stretch:condensed;font-size:50px;fill:white;">loGo</text>
+        </g>
+    </g>
+</svg>
