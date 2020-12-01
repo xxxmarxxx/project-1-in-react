@@ -8,14 +8,16 @@ const Header = () => {
     <>
       <div className="banner page__header">
         <img src={image1} alt="image1" className="banner__image" />
-        <h1 class="banner__title banner__title--creative"> creative</h1>
-        <h2 class="banner__title banner__title--innovation"> innovation</h2>
-        <p class="banner__title banner__title--technology"> technology</p>
-        <p class="banner__title banner__title--success"> success</p>
-        <p class="banner__title banner__title--idea"> idea</p>
-        <p class="banner__title banner__title--development"> development</p>
-        <p class="banner__title banner__title--art"> art</p>
-        <button class="button banner__btn button--large">Enter</button>
+        <h1 className="banner__title banner__title--creative"> creative</h1>
+        <h2 className="banner__title banner__title--innovation"> innovation</h2>
+        <p className="banner__title banner__title--technology"> technology</p>
+        <p className="banner__title banner__title--success"> success</p>
+        <p className="banner__title banner__title--idea"> idea</p>
+        <p className="banner__title banner__title--development"> development</p>
+        <p className="banner__title banner__title--art"> art</p>
+        <p className="banner__title banner__title--work"> work</p>
+        <p className="banner__title banner__title--inspiration"> inspiration</p>
+        <button className="button banner__btn button--large">Enter</button>
       </div>
     </>
   );
