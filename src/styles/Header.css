@@ -5,82 +5,24 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.page {
-    background-color: rgb(250, 249, 247);
+.banner__image {
+    background-color: slategrey;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
 }
 
 .page__header {
-    background: rgb(219, 225, 230);
-}
-
-.page__nav {
-    /* height: 40px; */
-    width: 900px;
-    margin: auto;
-    padding: 80px;
-}
-
-.menu {
-    background-color: rgb(237, 244, 234);
-}
-
-.logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    /* background-color: #ffffff; */
-}
-
-.logo__image {
-    height: 30px;
-}
-
-.logo__name {
-    padding: 0 60px 0 10px;
-}
-
-.menu__list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.menu__item {
-    float: left;
-}
-
-a:link {
-    color: rgb(226, 43, 128);
-}
-
-a:visited {
-    color: rgb(28, 70, 206);
-}
-
-a:hover {
-    color: #ffffff;
-}
-
-a:active {
-    color: rgb(238, 238, 13);
-}
-
-.menu__link {
-    text-decoration: none;
-    /* display: block; */
-    padding: 0 18px;
+    background: rgb(34, 59, 80);
 }
 
 .button--large {
     font-size: 18px;
     position: absolute;
-    right: 100px;
+    right: 10%;
     top: 400px;
     padding: 10px 30px;
 }
-
 
 .banner {
     display: flex;
@@ -90,15 +32,7 @@ a:active {
     width: 100%;
 }
 
-.banner__image {
-    background-color: slategrey;
-    height: 500px;
-    width: 100%;
-    background-size: cover;
-}
-
 .banner__title {
-    /* font-family: 'Barlow Condensed', sans-serif; */
     font-family: 'Anton', sans-serif;
     font-weight: 500;
     position: absolute;
@@ -128,7 +62,7 @@ a:active {
     font-size: 6rem;
     left: 140px;
     top: 260px;
-    color: #025F3B;
+    color: #fc9ef4;
 }
 
 .banner__title--technology {
@@ -150,6 +84,69 @@ a:active {
     top: 130px;
     color: rgb(230, 230, 0);
 }
+.banner__title--work{
+    font-size: 3rem;
+    left: 370px;
+    top: 280px;
+    color: rgb(255, 251, 134);
+}
+.banner__title--inspiration{
+    font-size: 3rem;
+    left: 230px;
+    top: 380px;
+    color: rgb(134, 255, 180);
+}
 
 
+/* .page {
+    background-color: rgb(205, 148, 33);
+} */
 
+/* .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+} */
+
+/* .logo__image {
+    height: 30px;
+}
+
+.logo__name {
+    padding: 0 60px 0 10px;
+} */
+
+/* .menu__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+} */
+
+/* .menu__item {
+    float: left;
+} */
+
+/* a:link {
+    color: rgb(226, 43, 128);
+}
+
+a:visited {
+    color: rgb(28, 70, 206);
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+a:active {
+    color: rgb(238, 238, 13);
+} */
+
+/* .menu__link {
+    text-decoration: none;
+    
+    padding: 0 18px;
+} */
