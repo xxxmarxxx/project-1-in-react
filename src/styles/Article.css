@@ -7,7 +7,7 @@
 .article__title {
     text-align: left;
     padding: 40px 0 20px;
-    font-family: 'Barlow Condensed', sans-serif;
+    /* font-family: 'Barlow Condensed', sans-serif; */
 }
 
 .article_subtitle {
@@ -23,6 +23,20 @@
     text-align: left;
 }
 
+.article__author {
+    margin: 10px;
+    font-weight: 600;
+    font-style: italic;
+}
+button{
+    background-image: linear-gradient(#EEE, #DDD);
+}
+
 .article__btn {
+    border: 0;
+    border-radius: 3px;
+    padding: 8px 15px;
+    margin: 10px;
     margin-left: 80%;
+    /* background-color: #569E3D linear-gradient(#79D858, #569E3D) repeat-x; */
 }
