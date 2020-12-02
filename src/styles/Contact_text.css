@@ -1,0 +1,13 @@
+
+.contact{
+margin: 60px;
+
+}
+.contact__title{
+    margin: 20px;
+}
+.contact__text{
+    margin: 20px;
+    font-weight: 400;
+    text-align: justify;
+}
