@@ -4,6 +4,8 @@ import logo1 from "../assets/logo.svg";
 import { NavLink, Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import Page from "./Page";
 import Contact from "../componets/Contact_text"
+import Impressum from "../componets/Impressum_text"
+
 // import { Home, News, Contact, Impressum, ErrorPage} from "./App";
 
 
@@ -37,20 +39,20 @@ const News = () => {
 //   );
 // };
 
-const Impressum = () => {
-  return (
-    <div>
-      <h1>
-        Impressum <br />
-      </h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, expedita
-        earum voluptas pariatur quidem cupiditate illum. Nam excepturi,
-        cupiditate minima soluta praesentium eveniet, maiores velit provident
-      </p>
-    </div>
-  );
-};
+// const Impressum = () => {
+//   return (
+//     <div>
+//       <h1>
+//         Impressum <br />
+//       </h1>
+//       <p>
+//         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, expedita
+//         earum voluptas pariatur quidem cupiditate illum. Nam excepturi,
+//         cupiditate minima soluta praesentium eveniet, maiores velit provident
+//       </p>
+//     </div>
+//   );
+// };
 
 const ErrorPage = () => <h1>Strona nie istnieje</h1>;
 
