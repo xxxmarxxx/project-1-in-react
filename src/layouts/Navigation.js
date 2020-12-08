@@ -3,26 +3,25 @@ import "../styles/Navigation.css";
 import logo1 from "../assets/logo.svg";
 import { NavLink, Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import Page from "./Page";
-import Contact from "../componets/Contact_text"
-import Impressum from "../componets/Impressum_text"
+import Contact from "../componets/Contact_text";
+import Impressum from "../componets/Impressum_text";
+import Home from "../layouts/Home";
 
-// import { Home, News, Contact, Impressum, ErrorPage} from "./App";
 
-
-const Home = () => {
-  return <h1>to ja home</h1>;
-};
-const News = () => {
-  return (
-    <div>
-      <h1>Aktualnosci</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, expedita
-        earum voluptas
-      </p>
-    </div>
-  );
-};
+// const Home = () => {
+//   return <h1>this is my portfolio page</h1>;
+// };
+// const News = () => {
+//   return (
+//     <div>
+//       <h1>Aktualnosci</h1>
+//       <p>
+//         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, expedita
+//         earum voluptas
+//       </p>
+//     </div>
+//   );
+// };
 
 // const Contact = () => {
 //   return (
