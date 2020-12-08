@@ -6,6 +6,7 @@ import Page from "./Page";
 import Contact from "../componets/Contact_text";
 import Impressum from "../componets/Impressum_text";
 import Home from "../layouts/Home";
+import Cv from "../layouts/Cv";
 
 
 // const Home = () => {
@@ -73,6 +74,14 @@ const Navigation = () => {
               </a> */}
             </li>
             <li className="menu__item">
+            <NavLink to="/cv" activeClassName="cv_selected">
+                    cv
+                  </NavLink>
+              {/* <a href=" " className="menu__link">
+                news
+              </a> */}
+            </li>
+            <li className="menu__item">
             <NavLink to="/news" activeClassName="news_selected">
                     news
                   </NavLink>
@@ -107,6 +116,7 @@ const Navigation = () => {
         <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/news" component={Page} />
+            <Route path="/cv" component={Cv} />
             <Route path="/contact" component={Contact} />
             <Route path="/impressum" component={Impressum} />
             <Route component={ErrorPage} />
