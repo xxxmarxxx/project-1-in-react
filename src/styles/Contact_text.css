@@ -1,17 +1,18 @@
 
-.contact{
+.contact1{
 margin: 60px;
 
 }
-.contact__title{
+.contact1__title{
     margin: 20px;
 }
-.contact__text{
+.contact1__text{
     font-family: Roboto;
     margin: 20px;
     font-weight: 400;
     text-align: justify;
+    color: maroon;
 }
-.contact__author{
+.contact1__author{
     margin: 0 10px;
 }
