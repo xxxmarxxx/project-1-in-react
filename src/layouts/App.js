@@ -1,9 +1,9 @@
+import React from "react";
 import Header from "./Header";
 import Navigation from "./Navigation";
 import Footer from "./Footer";
 import "../styles/App.css";
-import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
-
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
@@ -11,11 +11,9 @@ function App() {
       <div className="App">
         <Header />
         <Navigation />
-        {/* <Page /> */}
         <Footer />
       </div>
     </Router>
   );
 }
-
 export default App;
