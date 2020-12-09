@@ -7,9 +7,7 @@ const Cv = () => {
 
   return (
     <>
-      <section className="aaaa">
-        jestem CV.js layout
-      </section>
+      
       <PageOne />
     </>
   );
