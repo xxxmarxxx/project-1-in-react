@@ -9,7 +9,7 @@ const Home = () => {
 
   return (
     <>
-      <main className="home page__home">
+      <section className="home page__home">
         <p className="home_text">welcome to my portfolio page</p>
         <img src={image1} alt="image1" className="logoBottom__image" />
         <p className="home__text-2">{" "}
@@ -18,7 +18,7 @@ const Home = () => {
         <div>
         <Portfolio />
     </div>
-      </main>
+      </section>
     </>
   );
 };
