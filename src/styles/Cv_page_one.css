@@ -1,0 +1,163 @@
+
+
+main {
+    width: 950px;
+    text-align: center;
+    background-image: linear-gradient(90deg, rgb(206, 202, 202) 50%, #fff 50%);
+    margin: 60px auto;
+    border: solid 0.1px rgba(211, 211, 211, 0.461);
+    box-shadow: 6px 6px 6px -7px rgba(0,0,0,.3);
+    
+}
+
+li {
+    list-style: none;
+
+}
+.__contact-text {
+    color: #8e8e8e;
+    margin: 20px;
+}
+
+.headline {
+    font-size: 1rem;
+    font-style: italic;
+    color: #5e5e5e;
+
+}
+
+/*  ----------------------------- page 1 ---------- */
+/* start img page 1  */
+.layout_page_one {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    /* padding: 20px; */
+    line-height: 1.4;
+    font-size: 1rem;
+    
+}
+
+.foto {
+    margin: 50px;
+    border-radius: 100px;
+    border: solid 2px #fff;
+    width: 150px;
+    height: auto;
+    
+}
+
+.name_one {
+    font-size: 24px;
+}
+
+.user_name_one {
+    color: rgb(132, 133, 133);
+    
+}
+/* end img page 1*/
+
+.hobby_icons {
+    width: 50px;
+ }
+
+ .hobby_text {
+    font-size: 1.3rem;
+    font-style: italic;
+    color: snow;
+    text-align: right;
+    text-transform: uppercase;
+
+}
+
+.contact {
+    font-size: 1.3rem;
+    font-style: italic;
+    color: snow;
+    text-align: right;
+    text-transform: uppercase;
+
+}
+.skill_list {
+    margin-bottom: 20px;
+    padding: 0 60px;
+    text-align: left;
+}
+
+.skill {
+    color: snow;
+    margin: 15px 0;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: rgb(132, 133, 133);
+
+}
+
+.__javascript {
+    width: 140px;
+}
+
+.__html {
+    width: 200px;
+}
+
+.__css3 {
+    width: 190px;
+}
+
+.__node {
+    width: 150px;
+}
+
+.__react {
+    width: 150px;
+}
+
+.__github {
+    width: 160px;
+}
+
+.__illustrator {
+    width: 200px;
+}
+
+.__photoshop {
+    width: 200px;
+}
+
+.__adobeXd {
+    width: 170px;
+}
+
+.__lightroom {
+    width: 210px;
+}
+
+.__movie {
+    width: 190px;
+}
+
+.__keynote {
+    width: 190px;
+}
+
+.__rating {
+    color: rgb(132, 133, 133);
+    width: 300px;
+    background-color: rgb(206, 202, 202);
+
+}
+
+.left {
+    text-align: right;
+    font-size: 1rem;
+    width: 50%;
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+
+}
+
+.education {
+    margin: 80px 0;
+
+}
