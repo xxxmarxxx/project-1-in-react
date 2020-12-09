@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    
 }
 
 .banner__image {
@@ -33,7 +33,6 @@
 }
 
 .banner__title {
-    font-family: 'Anton', sans-serif;
     font-weight: 500;
     position: absolute;
 }
@@ -97,56 +96,3 @@
     color: rgb(134, 255, 180);
 }
 
-
-/* .page {
-    background-color: rgb(205, 148, 33);
-} */
-
-/* .logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    
-} */
-
-/* .logo__image {
-    height: 30px;
-}
-
-.logo__name {
-    padding: 0 60px 0 10px;
-} */
-
-/* .menu__list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-} */
-
-/* .menu__item {
-    float: left;
-} */
-
-/* a:link {
-    color: rgb(226, 43, 128);
-}
-
-a:visited {
-    color: rgb(28, 70, 206);
-}
-
-a:hover {
-    color: #ffffff;
-}
-
-a:active {
-    color: rgb(238, 238, 13);
-} */
-
-/* .menu__link {
-    text-decoration: none;
-    
-    padding: 0 18px;
-} */
