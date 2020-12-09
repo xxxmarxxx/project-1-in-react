@@ -8,7 +8,7 @@ const Cv = () => {
   return (
     <>
       <section className="aaaa">
-        jestem CV layout
+        jestem CV.js layout
       </section>
       <PageOne />
     </>
