@@ -8,8 +8,6 @@ main {
     
 }
 
-/* foto i name */
-
 .foto_page_2 {
     margin: 50px;
     border-radius: 100px;
@@ -25,28 +23,39 @@ main {
 
 
 
-.left_side {
+.left_side_second {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     text-align: right;
     font-size: 0.8rem;
     width: 50%;
-    /* padding: 1rem rem; */
-    /* margin-top: 3rem; */
     
 }
 
-.adress {
+.adress_second {
     position: relative;
     right: 30px;
     
 }
 
-.logos {
+.contact_second{
+    font-size: 1rem;
+    font-style: italic;
+    color: snow;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.second_contact_text {
+    color: rgb(96, 96, 96);
+    padding: 20px 0;
+}
+
+.logos_second {
     display: flex;
     justify-content: center;
-    color: #5e5e5e;
+    color: rgb(96, 96, 96);
     
 }
 
@@ -54,12 +63,6 @@ main {
     text-align: center;
     
 }
-
-.__contact-text {
-    color: #8e8e8e;
-    padding: 20px 0;
-}
-
 
 .linkend {
     filter: invert(59%) sepia(0%) saturate(1984%) hue-rotate(183deg) brightness(89%) contrast(91%);
@@ -102,11 +105,12 @@ main {
     
 }
 
-/* .user_name_second {
+.user_name_second {
+    margin-bottom: 50px;
     position: relative;
     color: rgb(96, 96, 96);
     
-} */
+}
 
 
 .page2_right_side {
