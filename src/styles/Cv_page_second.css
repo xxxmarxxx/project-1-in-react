@@ -1,0 +1,160 @@
+
+main {
+    margin-top: 50px;
+    /* width: 950px; */
+    background-image: linear-gradient(90deg, rgb(208, 204, 204) 50%, #fff 50%);
+    border: solid 0.1px rgba(211, 211, 211, 0.461);
+    box-shadow: 6px 6px 6px -7px rgba(0,0,0,.3);
+    
+}
+
+/* foto i name */
+
+.foto_page_2 {
+    margin: 50px;
+    border-radius: 100px;
+    border: solid 2px #fff;
+    width: 150px;
+    height: auto;
+
+}
+
+.name_second {
+    font-size: 24px;
+}
+
+
+
+.left_side {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    font-size: 0.8rem;
+    width: 50%;
+    /* padding: 1rem rem; */
+    /* margin-top: 3rem; */
+    
+}
+
+.adress {
+    position: relative;
+    right: 30px;
+    
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    color: #5e5e5e;
+    
+}
+
+.icon_github {
+    text-align: center;
+    
+}
+
+.__contact-text {
+    color: #8e8e8e;
+    padding: 20px 0;
+}
+
+
+.linkend {
+    filter: invert(59%) sepia(0%) saturate(1984%) hue-rotate(183deg) brightness(89%) contrast(91%);
+    width: 60px;
+    height: 60px; 
+
+}
+
+.github {
+    filter: invert(59%) sepia(0%) saturate(1984%) hue-rotate(183deg) brightness(89%) contrast(91%);
+    width: 60px;
+    height: 60px; 
+
+}
+
+
+.git {
+    margin: 20px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+}
+
+.corner {
+    position: relative;
+    bottom: -102px;
+    right: -53px;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.layout_page_second {
+    display: flex;
+    /* justify-content: center; */
+    margin-bottom: 30px;
+    /* padding: 20px; */
+    line-height: 1.4;
+    font-size: 0.8rem;
+    
+}
+
+/* .user_name_second {
+    position: relative;
+    color: rgb(96, 96, 96);
+    
+} */
+
+
+.page2_right_side {
+    color: #5e5e5e;
+    text-align: left;
+    font-size: 0.8rem;
+    font-style: italic;
+    width: 50%;
+    padding: 0 1rem;
+    margin-top: 3rem;
+    /* margin: 14px 0; */
+    /* background-color: rgb(202, 235, 235); */
+
+}
+
+.job-history {
+    margin: 20px
+
+}
+
+
+
+/* .__titel_1 {
+    text-align: right;
+    font-size: 0.8rem;
+    width: 50%;
+    margin-top: 1rem;
+    background-color: rgb(206, 202, 202);
+
+} */
+
+
+
+
+
+
+
+ /* adress bottom */
+.headline {
+    font-size: 1rem;
+    font-style: italic;
+    color: #5e5e5e;
+
+}
+
+/* niedziala */
+/* .icons {
+    margin: 10px 0;
+    filter: invert(59%) sepia(0%) saturate(1984%) hue-rotate(183deg) brightness(89%) contrast(91%);
+
+} */

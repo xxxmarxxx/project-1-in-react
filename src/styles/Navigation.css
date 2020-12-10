@@ -1,5 +1,5 @@
 .page__nav {
-    width: 800px;
+    max-width: 800px;
     margin: auto;
     padding: 40px;
 }
@@ -60,7 +60,7 @@ a{
 }
 
 a:link {
-    color: rgb(226, 43, 128);
+    color: rgb(46, 43, 226);
 }
 
 a:visited {
