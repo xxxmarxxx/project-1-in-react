@@ -6,7 +6,6 @@ import Portfolio from "../componets/Portfolio"
 
 const Home = () => {
 
-
   return (
     <>
       <section className="home page__home">
@@ -14,7 +13,7 @@ const Home = () => {
           welcome to my portfolio page</p>
         <img src={image1} alt="image1" className="logoBottom__image" />
         <p className="home__text-2">{" "}
-        text
+        pages in work progress
         </p>
         <div>
         <Portfolio />
