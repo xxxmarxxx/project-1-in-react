@@ -9,7 +9,7 @@ const Cv = () => {
   return (
     <>
       
-      {/* <PageOne /> */}
+      <PageOne />
       <PageSecond />
 
     </>
