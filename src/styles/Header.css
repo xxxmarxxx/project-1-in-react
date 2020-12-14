@@ -35,6 +35,7 @@
 .banner__title {
     font-weight: 500;
     position: absolute;
+    font-family: Anton;
 }
 
 .banner__title--creative {
