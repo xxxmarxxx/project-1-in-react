@@ -2,9 +2,9 @@
 
 main {
     margin-top: 50px;
-    /* width: 950px; */
+    width: 950px;
     /* text-align: center; */
-    background-image: linear-gradient(90deg, rgb(208, 204, 204) 50%, #fff 50%);
+    background-image: linear-gradient(90deg, rgb(206, 202, 202) 50%, #fff 50%);
     /* margin: 60px; */
     border: solid 0.1px rgba(211, 211, 211, 0.461);
     box-shadow: 6px 6px 6px -7px rgba(0,0,0,.3);
@@ -15,9 +15,8 @@ li {
     list-style: none;
 }
 
+
 .headline {
-    padding-right: 20px;
-    text-align: right;
     font-size: 1rem;
     font-style: italic;
     color: rgb(96, 96, 96);
@@ -26,11 +25,11 @@ li {
 
 .layout_page_one {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     /* margin-bottom: 30px; */
     /* padding: 20px; */
     line-height: 1.4;
-    font-size: 0.8rem;
+    font-size: 1rem;
     
 }
 
@@ -38,7 +37,7 @@ li {
     margin: 50px;
     border-radius: 100px;
     border: solid 2px #fff;
-    width: 120px;
+    width: 150px;
     height: auto;
     
 }
@@ -57,6 +56,7 @@ li {
     font-style: italic;
 }
 
+
 .hobby_icons {
     width: 50px;
     margin: 0 5px;
@@ -68,7 +68,7 @@ li {
     filter: invert(41%) sepia(9%) saturate(18%) hue-rotate(317deg) brightness(87%) contrast(92%);
 
 }
- .hobby_headline {
+ .hobby_text {
     font-size: 1rem;
     font-style: italic;
     color: snow;
@@ -87,7 +87,7 @@ li {
 }
 
 .__contact-text {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 1.4;
     color: rgb(96, 96, 96);
     font-style: italic;
@@ -101,116 +101,19 @@ li {
 }
 
 .right_side {
-    padding-right: 10px;
-    margin: 0 10px 0px 30px;
+    margin-left: 60px;
     text-align: left;
-    /* background-color: rgb(214, 222, 245); */
 
 }
 
 .education {
-    margin: 60px 0;
-    color: rgb(96, 96, 96);
+    margin: 80px 0;
 
 }
-.left_side {
-    /* padding: 0 20px 0 0px; */
-    /* margin:  0 0px; */
-    text-align: right;
-    font-size: 0.8rem;
-    /* width: 50%; */
-    /* background-color: rgb(52, 17, 148); */
-}
-
-/* ////////////////////////////////// start diagram */
-.skill {
-    
-    /* background-color: rgb(215, 13, 13); */
-    padding: 60px 20px 60px 10px;
-    width: 37vh;
-    /* border: solid 0.5px; */
-
-}
-
-.skill_item {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    list-style: none;
-    color: rgb(79, 79, 79);
-
-}
-
-.skill_text {
-    margin: 0 20px 15px 20px;
-    text-align: right;
-    width: 90px;
-}
-
-.item {
-    height: 14px;
-    background-color: rgb(131, 131, 131);
-    border-radius: 8px;
-}
-
-.__item_1 {
-    width: 25%;
-}
-
-.__item_2 {
-    width: 30%;
-}
-
-.__item_3 {
-    width: 32.5%;
-}
-
-.__item_4 {
-    width: 25%;
-}
-
-.__item_5 {
-    width: 25%;
-}
-
-.__item_6 {
-    width: 27.5%;
-}
-
-.__item_7 {
-    width: 37.5%;
-}
-
-.__item_8 {
-    width: 37.5%;
-}
-
-.__item_9 {
-    width: 30%;
-}
-
-.__item_10 {
-    width: 37.5%;
-}
-
-.__item_11 {
-    width: 35%;
-}
-
-.__item_12 {
-    width: 35%;
-}
-
-.skill_diagram_number {
-    width: 280px;
-    margin: 0 0px 0 0;
-}
-
-/* ////////////////////////// end diagram */
 
 /* start diagram old ---------------------------------*/
 
-/* .skill_list {
+.skill_list {
     margin-bottom: 20px;
     padding: 0 20px;
     text-align: left;
@@ -226,7 +129,12 @@ li {
 
 }
 
+.left {
+    text-align: right;
+    font-size: 1rem;
+    width: 42%;
 
+}
 
 .__javascript {
     width: 140px;
@@ -281,5 +189,7 @@ li {
     width: 300px;
     background-color: rgb(206, 202, 202);
 
-} */
+}
 /* end diagram old -------------------------*/
+
+

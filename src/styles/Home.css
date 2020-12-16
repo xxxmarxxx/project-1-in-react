@@ -1,15 +1,11 @@
 .home {
-    padding: 50px;
     margin: 50px 0;
-    border-radius: 20px;
-    background-color: rgb(242, 242, 242);
+    background-color: rgb(227, 232, 238);
     
 }
 .home_text{
-    padding: 20px;
-    color: rgb(106, 106, 106);
+    color: rgb(255, 68, 0);
 }
 .home__text-2{
-    padding: 20px;
     color: maroon;
 }
