@@ -20,6 +20,11 @@ main {
     font-size: 24px;
 }
 
+.fullstack_text_second {
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
 /* -------------- start left aside ------- */
 
 .layout_page_second {
@@ -41,6 +46,7 @@ main {
     width: 50%;
 
 }
+
 
 .adress_second {
     position: relative;
@@ -112,7 +118,7 @@ main {
     font-style: italic;
     /* width: 50%; */
     /* padding: 0 1rem; */
-    margin-top: 3rem;
+    margin-top: 1rem;
     /* margin: 14px 0; */
     /* background-color: rgb(202, 235, 235); */
 
