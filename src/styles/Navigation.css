@@ -3,6 +3,9 @@
     margin: auto;
     padding: 40px;
 }
+.error{
+    padding: 15vh;
+}
 
 .logo {
     display: flex;

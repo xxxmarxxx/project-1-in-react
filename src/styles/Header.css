@@ -35,6 +35,7 @@
 .banner__title {
     font-weight: 500;
     position: absolute;
+    font-family: Anton;
 }
 
 .banner__title--creative {
@@ -61,7 +62,7 @@
     font-size: 6rem;
     left: 140px;
     top: 260px;
-    color: #fc9ef4;
+    color: rgb(240, 153, 254);
 }
 
 .banner__title--technology {
