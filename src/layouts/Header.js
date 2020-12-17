@@ -8,7 +8,7 @@ const Header = () => {
     <>
       <div className="banner page__header">
         <img src={image1} alt="image1" className="banner__image" />
-        <h1 className="banner__title banner__title--creative"> creative</h1>
+        <p className="banner__title banner__title--creative"> creative</p>
         <h2 className="banner__title banner__title--innovation"> innovation</h2>
         <p className="banner__title banner__title--technology"> technology</p>
         <p className="banner__title banner__title--success"> success</p>
