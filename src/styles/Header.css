@@ -39,9 +39,17 @@
 }
 
 .banner__title--creative {
+    font-size: 2rem;
     left: 40px;
     top: 80px;
     color: rgb(216, 4, 235);
+}
+
+.banner__title--innovation {
+    font-size: 5rem;
+    left: 110px;
+    top: 130px;
+    color: rgb(230, 230, 0);
 }
 
 .banner__title--success {
@@ -78,12 +86,7 @@
     color: rgb(1, 255, 234);
 }
 
-.banner__title--innovation {
-    font-size: 5rem;
-    left: 110px;
-    top: 130px;
-    color: rgb(230, 230, 0);
-}
+
 .banner__title--work{
     font-size: 3rem;
     left: 370px;
