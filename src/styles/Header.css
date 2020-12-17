@@ -1,31 +1,38 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     
-}
+} */
 
 .banner__image {
-    background-color: slategrey;
+    /* background-color: slategrey; */
     height: 500px;
     width: 100%;
-    background-size: cover;
+    /* background-size: cover; */
 }
 
-.page__header {
+/* .page__header {
     background: rgb(34, 59, 80);
-}
+} */
+
 
 .button--large {
-    font-size: 18px;
     position: absolute;
-    right: 10%;
-    top: 400px;
-    padding: 10px 30px;
+    right: -40%;
+    top: -80px;
+    /* width: 70px; */
+    /* height: 50px; */
+    /* font-size: 18px; */
+    /* padding: 10px 10px; */
+    /* border: solid 5px #5cb857; */
+    /* border-radius: 30px; */
+    /* color: #00e676; */
+    /* background-color: cornflowerblue; */
 }
 
 .banner {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     object-fit: cover;
