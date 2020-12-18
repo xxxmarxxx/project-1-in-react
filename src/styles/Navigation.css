@@ -3,6 +3,9 @@
     margin: auto;
     padding: 40px;
 }
+.error{
+    padding: 15vh;
+}
 
 .logo {
     display: flex;
@@ -40,11 +43,15 @@ a{
     letter-spacing: 4px;
 }
 
+.cv_selected{
+    letter-spacing: 4px;
+}
+
 .contact_selected {
     letter-spacing: 4px;
 }
 .impressum_selected {
-    color: blueviolet;
+    
     letter-spacing: 4px;
 }
 

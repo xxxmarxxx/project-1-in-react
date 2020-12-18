@@ -4,17 +4,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    background-color: rgb(172, 238, 205);
-    height: 50px;
-    font-size: 1rem;
-    font-weight: 400;
-    /* font-family: 'Anton', sans-serif; */
+    align-content: flex-end;
+    background-color: #E5FB8B;
+    height: 7vh;
+    
+    
     
    
 }
 .logoBottom__image {
     align-items: center;
-    width: 80px;
+    width: 100px;
     margin: 0 5px;
+}
+.footer__address-info{
+    color: #183a29;
+    letter-spacing: 3px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
 }

@@ -1,31 +1,38 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     
-}
+} */
 
 .banner__image {
-    background-color: slategrey;
+    /* background-color: slategrey; */
     height: 500px;
     width: 100%;
-    background-size: cover;
+    /* background-size: cover; */
 }
 
-.page__header {
+/* .page__header {
     background: rgb(34, 59, 80);
-}
+} */
+
 
 .button--large {
-    font-size: 18px;
     position: absolute;
-    right: 10%;
-    top: 400px;
-    padding: 10px 30px;
+    right: -40%;
+    top: -80px;
+    /* width: 70px; */
+    /* height: 50px; */
+    /* font-size: 18px; */
+    /* padding: 10px 10px; */
+    /* border: solid 5px #5cb857; */
+    /* border-radius: 30px; */
+    /* color: #00e676; */
+    /* background-color: cornflowerblue; */
 }
 
 .banner {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     object-fit: cover;
@@ -35,12 +42,21 @@
 .banner__title {
     font-weight: 500;
     position: absolute;
+    font-family: Anton;
 }
 
 .banner__title--creative {
+    font-size: 2rem;
     left: 40px;
     top: 80px;
     color: rgb(216, 4, 235);
+}
+
+.banner__title--innovation {
+    font-size: 5rem;
+    left: 110px;
+    top: 130px;
+    color: rgb(230, 230, 0);
 }
 
 .banner__title--success {
@@ -61,7 +77,7 @@
     font-size: 6rem;
     left: 140px;
     top: 260px;
-    color: #fc9ef4;
+    color: rgb(240, 153, 254);
 }
 
 .banner__title--technology {
@@ -77,12 +93,7 @@
     color: rgb(1, 255, 234);
 }
 
-.banner__title--innovation {
-    font-size: 5rem;
-    left: 110px;
-    top: 130px;
-    color: rgb(230, 230, 0);
-}
+
 .banner__title--work{
     font-size: 3rem;
     left: 370px;

@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 main {
     margin-top: 50px;
@@ -55,6 +59,7 @@ li {
 }
 .fullstack_text {
     font-style: italic;
+    font-size: 0.8rem;
 }
 
 .hobby_icons {
@@ -64,11 +69,13 @@ li {
  }
 
  .icons {
+    padding-right: 20px;
     margin: 10px 0;
     filter: invert(41%) sepia(9%) saturate(18%) hue-rotate(317deg) brightness(87%) contrast(92%);
 
 }
  .hobby_headline {
+    padding-right: 20px;
     font-size: 1rem;
     font-style: italic;
     color: snow;
@@ -78,6 +85,7 @@ li {
 }
 
 .contact {
+    padding-right: 20px;
     font-size: 1rem;
     font-style: italic;
     color: snow;
@@ -87,6 +95,7 @@ li {
 }
 
 .__contact-text {
+    padding-right: 20px;
     font-size: 0.8rem;
     line-height: 1.4;
     color: rgb(96, 96, 96);
@@ -115,10 +124,10 @@ li {
 }
 .left_side {
     /* padding: 0 20px 0 0px; */
-    /* margin:  0 0px; */
+    margin:  0 0px;
     text-align: right;
     font-size: 0.8rem;
-    /* width: 50%; */
+    width: 50%;
     /* background-color: rgb(52, 17, 148); */
 }
 

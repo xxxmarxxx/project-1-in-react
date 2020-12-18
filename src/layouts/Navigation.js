@@ -54,7 +54,7 @@ import Cv from "../layouts/Cv";
 //   );
 // };
 
-const ErrorPage = () => <h1>Strona nie istnieje</h1>;
+const ErrorPage = () => <h1 className="error">Upsss... </h1>;
 
 const Navigation = () => {
   return (
