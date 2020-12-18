@@ -2,6 +2,7 @@
     margin: auto;
     width: 900px;
     padding: 80px;
+
 }
 
 .article__title {
@@ -13,23 +14,29 @@
 .article_subtitle {
     text-align: left;
     padding: 10px 0;
+
 }
 
 .article__text {
     text-align: left;
+
 }
 
 .article__info {
     text-align: left;
+
 }
 
 .article__author {
     margin: 10px;
     font-weight: 600;
     font-style: italic;
+
 }
+
 button{
     background-image: linear-gradient(#EEE, #DDD);
+
 }
 
 .article__btn {
@@ -39,4 +46,5 @@ button{
     margin: 10px;
     margin-left: 80%;
     /* background-color: #569E3D linear-gradient(#79D858, #569E3D) repeat-x; */
+    
 }
