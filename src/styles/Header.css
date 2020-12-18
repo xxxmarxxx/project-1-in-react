@@ -29,6 +29,7 @@
     /* border-radius: 30px; */
     /* color: #00e676; */
     /* background-color: cornflowerblue; */
+    
 }
 
 .banner {
@@ -37,12 +38,14 @@
     align-items: center;
     object-fit: cover;
     width: 100%;
+
 }
 
 .banner__title {
     font-weight: 500;
     position: absolute;
     font-family: Anton;
+
 }
 
 .banner__title--creative {
@@ -50,6 +53,7 @@
     left: 40px;
     top: 80px;
     color: rgb(216, 4, 235);
+
 }
 
 .banner__title--innovation {
@@ -57,6 +61,7 @@
     left: 110px;
     top: 130px;
     color: rgb(230, 230, 0);
+
 }
 
 .banner__title--success {
@@ -64,6 +69,7 @@
     left: 160px;
     top: 100px;
     color: rgb(21, 255, 0);
+
 }
 
 .banner__title--development {
@@ -71,6 +77,7 @@
     left: 240px;
     top: 240px;
     color: rgb(255, 255, 255);
+
 }
 
 .banner__title--idea {
@@ -78,12 +85,14 @@
     left: 140px;
     top: 260px;
     color: rgb(240, 153, 254);
+
 }
 
 .banner__title--technology {
     left: 80px;
     top: 50px;
     color: rgb(255, 255, 255);
+
 }
 
 .banner__title--art {
@@ -91,19 +100,22 @@
     left: 160px;
     top: 220px;
     color: rgb(1, 255, 234);
-}
 
+}
 
 .banner__title--work{
     font-size: 3rem;
     left: 370px;
     top: 280px;
     color: rgb(255, 251, 134);
+
 }
+
 .banner__title--inspiration{
     font-size: 3rem;
     left: 230px;
     top: 380px;
     color: rgb(134, 255, 180);
+
 }
 

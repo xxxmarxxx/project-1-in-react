@@ -2,9 +2,12 @@
     max-width: 800px;
     margin: auto;
     padding: 40px;
+
 }
+
 .error{
     padding: 15vh;
+
 }
 
 .logo {
@@ -12,20 +15,25 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+
 }
 
 .logo__image {
     height: 30px;
+
 }
 
 .logo__name {
     padding: 0 60px 0 10px;
+
 }
 
 .menu__list {
     /* display: flex; */
     list-style-type: none;
+
 }
+
 a{
     text-decoration: none;
     
@@ -37,19 +45,24 @@ a{
 
 .home_selected {
     letter-spacing: 4px;
+
 }
 
 .news_selected {
     letter-spacing: 4px;
+
 }
 
 .cv_selected{
     letter-spacing: 4px;
+
 }
 
 .contact_selected {
     letter-spacing: 4px;
+
 }
+
 .impressum_selected {
     
     letter-spacing: 4px;
@@ -59,27 +72,33 @@ a{
     margin: 0 10px;
     padding: 0 10px;
     overflow: hidden;
+
 }
 
 .menu__item {
     float: left;
     margin: 0 10px;
+
 }
 
 a:link {
     color: rgb(46, 43, 226);
+
 }
 
 a:visited {
     color: rgb(203, 100, 4);
+
 }
 
 a:hover {
     color: #69cd76;
+
 }
 
 a:active {
     color: rgb(174, 21, 205);
+
 }
 
 /* .menu__link {

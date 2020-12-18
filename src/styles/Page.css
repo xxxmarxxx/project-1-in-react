@@ -8,9 +8,12 @@
 .search {
     padding-bottom: 40px;
     text-align: right;
+
 }
+
 .search__input {
     height: 25px ;
+
 }
 
 .article__title {
@@ -20,6 +23,7 @@
 
 .article_subtitle {
     padding: 10px 0;
+
 }
 
 .button--italic {
@@ -27,4 +31,5 @@
     margin: 10px 10px;
     border-radius: 5px;
     padding: 5px 30px;
+    
 }
