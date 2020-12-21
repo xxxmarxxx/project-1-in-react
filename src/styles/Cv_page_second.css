@@ -24,11 +24,13 @@ main {
 
 .name_second {
     font-size: 24px;
+
 }
 
 .fullstack_text_second {
     font-style: italic;
     font-size: 0.8rem;
+
 }
 
 /* -------------- start left aside ------- */
@@ -67,11 +69,13 @@ main {
     color: snow;
     text-align: right;
     text-transform: uppercase;
+
 }
 
 .second_contact_text {
     color: rgb(96, 96, 96);
     padding: 20px 0;
+
 }
 
 .logos_second {
@@ -132,6 +136,7 @@ main {
 
 .__blank {
     padding-left: 20px;
+
 }
 
 /* adress bottom */
@@ -146,6 +151,7 @@ main {
 
 .job-history {
     margin: 20px
+    
 }
 
 .user_name_second {
