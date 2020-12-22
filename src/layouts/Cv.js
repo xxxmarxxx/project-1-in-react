@@ -3,8 +3,8 @@ import "../styles/Cv.css";
 import PageOne from "../componets/Cv_page_one";
 import PageSecond from "../componets/Cv_page_second";
 // import { Document } from 'react-pdf';
-import PDFReader from '../componets/PDFReader'
-import Loader from '../componets/Loader';
+import PDF from '../componets/PDFReader'
+
 
 
 const Cv = () => {
@@ -17,8 +17,8 @@ const Cv = () => {
       
       >
         </Document> */}
-        <PDFReader />
-        <Loader />
+        <PDF />
+        
 
     </>
   );
