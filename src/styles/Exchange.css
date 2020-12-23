@@ -1,49 +1,52 @@
-section {
+/* section {
     margin: 50px;
-}
+} */
 .title {
-    background-color: #bbbbbb;
+    background-color: #3164e6;
     font-size: 30px;
+    font-weight: bold;
     padding: 30px;
     text-align: center;
-    color: #008204;
+    color: #f5f5f5;
 }
 
-h2 {
+/* h2 {
     margin: 50px 0 50px;
     padding: 20px;
     font-weight: 400;
     font-size: 30px;
     text-align: center;
     color: #45934b;
-}
-.box{
-    background-color: brown;
-}
+} */
+
 
 .cash {
+    color: rgb(7, 45, 126);
+    font-weight: bold;
     margin: auto;
     padding: 30px 40px;
     font-size: 24px;
     text-align: left;
-    background-color: brown;
+    border-radius: 20px;
+    background-color: rgb(244, 169, 40);
 }
 
-input {
+.quantity {
     margin: 20px;
     text-align: center;
     padding: 10px;
     font-size: 24px;
-    background-color: #A5BE4B;
+    background-color: #f4f4f4;
     border: solid 0;
     border-radius: 10px;
 }
 
 .change {
-    margin: auto;
-    
-    width: 800px;
+    margin: 50px auto;
+    padding: 0 40px;
+    width: 700px;
     height: 500px;
     border-radius: 20px;
-    background-color: #eeeeee;
+    background-color: #3164e6;
+    
 }
