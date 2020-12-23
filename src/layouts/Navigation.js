@@ -8,6 +8,7 @@ import Impressum from "../componets/Impressum_text";
 import Home from "../layouts/Home";
 import Cv from "../layouts/Cv";
 import Clock from "../layouts/Watch";
+import Cash from "../componets/Exchange";
 
 
 // const Home = () => {
@@ -91,7 +92,7 @@ const Navigation = () => {
               </a> */}
             </li>
             <li className="menu__item">
-            <NavLink to="/clock" activeClassName="clock_selected">
+            <NavLink to="/exchange" activeClassName="exchange_selected">
                     exchange
                   </NavLink>
               {/* <a href=" " className="menu__link">
@@ -135,6 +136,7 @@ const Navigation = () => {
             <Route path="/news" component={Page} />
             <Route path="/cv" component={Cv} />
             <Route path="/clock" component={Clock} />
+            <Route path="/exchange" component={Cash} />
             <Route path="/contact" component={Contact} />
             <Route path="/impressum" component={Impressum} />
             <Route component={ErrorPage} />
