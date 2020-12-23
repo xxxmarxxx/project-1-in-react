@@ -3,9 +3,10 @@ section {
 }
 .title {
     background-color: #bbbbbb;
+    font-size: 30px;
     padding: 30px;
     text-align: center;
-    color: #01638e;
+    color: #008204;
 }
 
 h2 {
