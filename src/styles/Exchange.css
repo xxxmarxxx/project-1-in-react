@@ -1,8 +1,11 @@
+section {
+    margin: 50px;
+}
 .title {
-    background-color: #699C44;
+    background-color: #bbbbbb;
     padding: 30px;
     text-align: center;
-    color: #10252E;
+    color: #01638e;
 }
 
 h2 {
@@ -11,7 +14,7 @@ h2 {
     font-weight: 400;
     font-size: 30px;
     text-align: center;
-    color: #437589;
+    color: #45934b;
 }
 
 .cash {
@@ -28,10 +31,10 @@ input {
     border: solid 0px;
 }
 
-.app {
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
-    height: 400px;
-    background-color: #437589;
+.change {
+    margin: auto;
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: #eeeeee;
 }
