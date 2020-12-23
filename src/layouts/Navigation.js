@@ -7,7 +7,7 @@ import Contact from "../componets/Contact_text";
 import Impressum from "../componets/Impressum_text";
 import Home from "../layouts/Home";
 import Cv from "../layouts/Cv";
-import Clock from "./Watch";
+import Clock from "../layouts/Watch";
 
 
 // const Home = () => {
@@ -85,6 +85,14 @@ const Navigation = () => {
             <li className="menu__item">
             <NavLink to="/clock" activeClassName="clock_selected">
                     watch
+                  </NavLink>
+              {/* <a href=" " className="menu__link">
+                news
+              </a> */}
+            </li>
+            <li className="menu__item">
+            <NavLink to="/clock" activeClassName="clock_selected">
+                    exchange
                   </NavLink>
               {/* <a href=" " className="menu__link">
                 news
