@@ -1,38 +1,10 @@
-/* * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-align: center;
-    font-family: "Courier New", Courier, monospace;
-    background-color: #25310c;
-  } */
 
-  /* .bgClock {
-    background:   radial-gradient(black 15%, transparent 16%) 0 0,
-                  radial-gradient(black 15%, transparent 16%) 8px 8px,
-                  radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px,
-                  radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
-    background-color: #25310c;
-    background-size: 18px 18px;
-  } */
   h1 {
     background-color: #192206;
     padding: 30px;
     color: #618220;
+    
   }
-
-  /* .btn_watch {
-    position: absolute;
-    color: #68884be7;
-    background-color: #618220;
-    width: 100px;
-    height: 50px;
-    padding: 10px;
-    margin: 50px 0;
-    border-radius: 10px;
-    border: solid 0px;
-    font-size: 20px;
-  } */
 
   .clock {
     font-family: 'Courier New', Courier, monospace;
