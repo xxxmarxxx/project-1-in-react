@@ -7,7 +7,7 @@ import Contact from "../componets/Contact_text";
 import Impressum from "../componets/Impressum_text";
 import Home from "../layouts/Home";
 import Cv from "../layouts/Cv";
-import Clock from "../layouts/Watch";
+import Clock from "../componets/Watch";
 import Cash from "../componets/Exchange";
 
 
