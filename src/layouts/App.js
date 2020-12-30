@@ -9,7 +9,7 @@ import Example from "../pages/Responsive";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="box">
         <Example />
         <Header />
         <Navigation />
