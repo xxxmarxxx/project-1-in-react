@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="footer page__footer">
+      <footer className="page__footer">
        
         <img src={image1} alt="image1" className="logoBottom__image" />
         {/* <p className="footer_copyright">copyright</p> */}
