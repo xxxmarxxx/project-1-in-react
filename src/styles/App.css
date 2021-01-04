@@ -5,9 +5,19 @@
   
 }
 
-.App {
-  text-align: center;
+html, body {
+  height: 100%;
 }
+
+.box {
+  
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(249, 249, 249);
+}
+
 
 
 /* #loader{
