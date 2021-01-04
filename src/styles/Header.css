@@ -26,15 +26,15 @@
     /* background-color: cornflowerblue; */
     
 }
-
+/* 
 .banner {
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* object-fit: cover; */
-    /* width: 100%; */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    width: 100vw;
 
-}
+} */
 
 .banner__title {
     font-weight: 500;
