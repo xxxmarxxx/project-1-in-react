@@ -1,9 +1,9 @@
-/* .articles {
-    margin: auto;
-    max-width: 800px;
-    padding: 80px;
-} */
-/* off dzis 10.12 */
+.articles {
+    margin: 100px auto;
+    max-width: 750px;
+    padding: 0px;
+    
+}
 
 .search {
     padding-bottom: 40px;
