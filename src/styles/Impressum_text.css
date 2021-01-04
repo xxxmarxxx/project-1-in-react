@@ -1,6 +1,7 @@
 .impressum {
+    width: 750px;
     color: rgb(104, 104, 104);
-    margin: 50px 0;
+    margin: 50px auto;
     padding: 25px;
     border-radius: 5px;
     text-align: left;
