@@ -9,6 +9,7 @@ import Home from "../layouts/Home";
 import Cv from "../layouts/Cv";
 import Clock from "../componets/Watch";
 import Cash from "../componets/Exchange";
+import Books from "./Books";
 
 
 // const Home = () => {
@@ -126,6 +127,15 @@ const Navigation = () => {
             <NavLink to="/impressum" activeClassName="impressum_selected">
                     impressum
                   </NavLink>
+                  
+              {/* <a href=" " className="menu__link">
+                contact
+              </a> */}
+            </li>
+            <li className="menu__item">
+            <NavLink to="/books" activeClassName="impressum_selected">
+                    books
+                  </NavLink>
               
             </li>
           </ul>
@@ -139,6 +149,7 @@ const Navigation = () => {
             <Route path="/exchange" component={Cash} />
             <Route path="/contact" component={Contact} />
             <Route path="/impressum" component={Impressum} />
+            <Route path="/books" component={Books} />
             <Route component={ErrorPage} />
           </Switch>
         </section>
