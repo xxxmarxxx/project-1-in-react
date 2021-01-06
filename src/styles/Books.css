@@ -29,11 +29,16 @@
     letter-spacing: 5px;
 }
 
+.book5 p {
+    margin-top: 0.5rem;
+}
+
 .book2{
     text-align: left;
     background-color: #fff;
     border-radius: 1rem;
     padding: 1rem 2rem;
+    
 }
 
 .book2 h4{
@@ -43,7 +48,7 @@
 }
 
 .book2 h1{
-    margin-top: 0.25rem;
+    margin-top: 0.5rem;
 }
 
 .book h1 {
