@@ -16,31 +16,50 @@ const BookList = () => {
     author: 'WOLFGANG SCHORLAU'
   }
 
+  const Books = [
+
+    {
+      img: 'https://media.moluna.de/a387/166/9783785727003_2_EN_9783785727003_original_CBILD.JPG',
+      title: 'Kingsbridge',
+      author: 'Ken Follett'
+   } ,
+    {
+      img: 'https://media.moluna.de/a517/153/9783492070591_2_EN_9783492070591_original_CBILD.JPG',
+      title: 'Olympia',
+      author: 'Volker Kutscher'
+    }
+
+  ];
+
   return (
     <section className="booksList">
       <Book />
       <Book2 job='developer'/>
-      <Book2 title='random title' number={22}/>
       <Book3 />
       <Book5 
       img={newBook1.img}
       title={newBook1.title} 
       author={newBook1.author} />
+      <Book2 title='random title' number={22}/>
       <Book5 
       img={newBook2.img}
       title={newBook2.title} 
-      author={newBook2.author} />
+      author={newBook2.author} >
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima suscipit odit quidem omnis quia vitae repellendus aperiam facere nobis ea.</p>
+      </Book5>
 
     </section>
   );
 };
 
 const Book5 = (props) => {
+  const {img, title, author} = props
   return (
     <article className="book5">
-      <img src={props.img} alt="" height="300px"/>
-      <h1>{props.title}</h1>
-      <h4> {props.author} </h4>
+      <img src={img} alt="" height="300px"/>
+      <h1>{title}</h1>
+      <h4> {author} </h4>
+      {props.children}
     </article>
   );
 };
@@ -76,7 +95,7 @@ const Author = () => (
 const Book2 = (props) => {
   
   const title = "Wunder";
-  const author = "Mark Manson";
+  const author = "Sara Barnard";
   const img = "https://media.moluna.de/a300/950/9783737355605_2_EN_9783737355605_original_CBILD.JPG";
 
   return (
