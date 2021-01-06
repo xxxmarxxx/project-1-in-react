@@ -3,6 +3,8 @@ import Header from "./Header";
 import Navigation from "./Navigation";
 import Footer from "./Footer";
 import "../styles/App.css";
+import "../styles/normalize.css";
+
 import { BrowserRouter as Router } from "react-router-dom";
 import Example from "../pages/Responsive";
 
