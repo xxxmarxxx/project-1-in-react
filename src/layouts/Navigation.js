@@ -109,6 +109,13 @@ const Navigation = () => {
               </a> */}
             </li>
             <li className="menu__item">
+            <NavLink to="/books" activeClassName="impressum_selected">
+                    books
+                  </NavLink>
+              
+            </li>
+            
+            <li className="menu__item">
             <NavLink
                     to="/contact"
                     activeClassName="contact_selected"
@@ -132,12 +139,7 @@ const Navigation = () => {
                 contact
               </a> */}
             </li>
-            <li className="menu__item">
-            <NavLink to="/books" activeClassName="impressum_selected">
-                    books
-                  </NavLink>
-              
-            </li>
+            
           </ul>
         </div>
         <section>
