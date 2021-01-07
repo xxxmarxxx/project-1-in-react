@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Books.css";
+import Book6 from "../componets/Book";
 
 
 
@@ -16,24 +17,24 @@ const BookList = () => {
     author: 'WOLFGANG SCHORLAU'
   }
 
-  const Books = [
+  // const Books = [
 
-    {
-      img: 'https://media.moluna.de/a387/166/9783785727003_2_EN_9783785727003_original_CBILD.JPG',
-      title: 'Kingsbridge',
-      author: 'Ken Follett'
-   } ,
-    {
-      img: 'https://media.moluna.de/a517/153/9783492070591_2_EN_9783492070591_original_CBILD.JPG',
-      title: 'Olympia',
-      author: 'Volker Kutscher'
-    }
+  //   {
+  //     img: 'https://media.moluna.de/a387/166/9783785727003_2_EN_9783785727003_original_CBILD.JPG',
+  //     title: 'Kingsbridge',
+  //     author: 'Ken Follett'
+  //  } ,
+  //   {
+  //     img: 'https://media.moluna.de/a517/153/9783492070591_2_EN_9783492070591_original_CBILD.JPG',
+  //     title: 'Olympia',
+  //     author: 'Volker Kutscher'
+  //   }
 
-  ];
+  // ];
 
   return (
     <section className="booksList">
-      <Book2 title='random title' number={22}/>
+      {/* <Book2 title='random title' number={22}/>
       <Book2 job='developer'/>
       <Book />
       <Book3 />
@@ -52,7 +53,8 @@ const BookList = () => {
       title={newBook2.title} 
       author={newBook2.author} >
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima suscipit odit quidem omnis quia vitae repellendus aperiam facere nobis ea.</p>
-      </Book5>
+      </Book5> */}
+      <Book6 />
 
     </section>
   );
