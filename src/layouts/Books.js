@@ -33,14 +33,20 @@ const BookList = () => {
 
   return (
     <section className="booksList">
-      <Book />
+      <Book2 title='random title' number={22}/>
       <Book2 job='developer'/>
+      <Book />
       <Book3 />
       <Book5 
       img={newBook1.img}
       title={newBook1.title} 
       author={newBook1.author} />
-      <Book2 title='random title' number={22}/>
+      <Book5 
+      img={newBook2.img}
+      title={newBook2.title} 
+      author={newBook2.author} >
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima suscipit odit quidem omnis quia vitae repellendus aperiam facere nobis ea.</p>
+      </Book5>
       <Book5 
       img={newBook2.img}
       title={newBook2.title} 
@@ -52,6 +58,7 @@ const BookList = () => {
   );
 };
 
+// book 5
 const Book5 = (props) => {
   const {img, title, author} = props
   return (
@@ -76,6 +83,7 @@ const Book = () => {
     </article>
   );
 };
+
 const Image = () => (
   <img
     src="https://m.media-amazon.com/images/I/51mN3bY0JjL.jpg"
@@ -90,7 +98,7 @@ const Author = () => (
     Mark Manson
   </h4>
 );
-
+//////////////
 // book 2
 const Book2 = (props) => {
   
@@ -110,7 +118,7 @@ const Book2 = (props) => {
     </article>
   );
 };
-
+////////////////
 // book 3
 const Book3 = (props) => {
   
