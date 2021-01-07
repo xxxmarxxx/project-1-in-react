@@ -8,12 +8,15 @@ import BookList2 from '../componets/Book2'
 const BookList = () => {
 
   return (
+    <>
     <section className="booksList">
      
       <BookArray />
+      
       {/* <BookList2 /> */}
 
     </section>
+    </>
   );
 };
 
